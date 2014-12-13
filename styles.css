@@ -1,0 +1,161 @@
+body {
+	background: url(images/congruent-pentagon.png);
+	margin: 0;
+	font-size: 16px;
+	font-family: font-family: 'Poiret One', cursive;
+	color: #468;
+}
+/* Typography
+---------------------------------------- */
+
+h1 {
+	color: #525556;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: 4e735d;
+	font-size: 1.5em;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: violet;
+}
+
+.items {
+	margin: 0;
+	list-style: square;
+}
+
+.things {
+	margin: 0;
+}
+
+/* Layout
+---------------------------------------- */
+
+#wrapper {
+	width:100%;
+}
+
+#navigation,
+#container {
+
+	margin: 1em;
+	}
+
+#container {
+	float: left;
+	width: 52%;
+}
+
+#container-2 {
+	margin: 1em;
+	float: right;
+	width: 40%;
+	border: solid;
+	background: url(images/mochaGrunge.png);
+	font-size: 20px;
+}
+
+#container-3 {
+	border:none;
+	width: 50%
+	float: right;
+	background: url(images/light-grey.png);
+}
+
+/* Images
+---------------------------------------- */
+
+img{
+	width: 70%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.thumbnail {
+	max-width: 300px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/* Navigation
+---------------------------------------- */
+
+nav ul {
+	padding: 0;
+	list-style:none;
+}
+
+nav ul li {
+	float: left;
+	margin: 0 5px 0 0;
+}
+
+nav ul li a {
+	background: #c5cacc;
+	border-radius: 15px;
+	padding: 5px 15px;
+}
+
+nav ul li a: hover {
+	background: #999;
+}
+
+/* Clearfix
+---------------------------------------- */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+
+}
+
+/* Video
+------------------------------------------*/
+
+.video-container {
+	max-width: 600px;
+	
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+	position: absolute;
+	top:0;
+    left:0;    
+    width: 100%;
+ 	height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
